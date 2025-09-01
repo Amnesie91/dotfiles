@@ -22,8 +22,6 @@ echo "Installing Brew..."
 brew analytics off
 
 ## Taps
-echo "Tapping Brew..."
-brew tap homebrew/cask-fonts
 brew tap FelixKratz/formulae
 
 ## Formulae
@@ -32,6 +30,7 @@ echo "Installing Brew Formulae..."
 ## Core Utils
 echo "Install gnu coreutils"
 brew install coreutils
+brew install stow
 
 ### Must Have things
 brew install zsh-autosuggestions
