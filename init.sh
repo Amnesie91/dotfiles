@@ -63,6 +63,9 @@ brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask font-sf-pro
 brew install --cask brave-browser
 
+## lsps
+brew install lua-language-server
+
 ## MacOS settings
 echo "Changing macOS defaults..."
 defaults write com.apple.Dock autohide -bool TRUE
