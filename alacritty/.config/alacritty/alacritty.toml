@@ -18,7 +18,7 @@ dynamic_padding = true
 hide_when_typing = true
 
 [font]
-normal.family = "JetBrainsMono Nerd Font" 
+normal.family = "Hack Nerd Font" 
 
 size = 16
 
