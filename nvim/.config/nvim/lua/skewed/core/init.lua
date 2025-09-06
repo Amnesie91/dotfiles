@@ -1,7 +1,7 @@
 require('skewed.core.keymapps')
 require('skewed.core.settings')
 
-vim.lsp.enable('luals')
+vim.lsp.enable({ 'luals', 'angularls' })
 
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
